@@ -12,10 +12,6 @@ Revume is your download guardian, automatically resuming multiple downloads that
 
 Revume gives you complete control over your downloads. You can manually pause a download and then resume it whenever you like. Whether it's for bandwidth management or personal preference, Revume empowers you to pause and resume downloads at your convenience.
 
-### Enable/Disable Resuming Functionality
-
-Not every situation requires automatic resume. Revume allows you to enable or disable the resuming functionality with a simple toggle. This flexibility ensures you can adapt the extension to your specific needs.
-
 ### Set Your Check Time
 
 Customize the interval at which Revume checks for interrupted downloads. You can set your preferred check time to match your download habits and network stability. Revume adapts to your preferences.
@@ -28,41 +24,33 @@ Stay informed about your download activities with Revume's integrated logging sy
 
 Revume offers a robust feedback system powered by EmailJS. Share your thoughts, report issues, or provide valuable suggestions directly from the extension's interface. Your feedback matters and helps us improve Revume.
 
-### Modern CSS Design with Smooth Effects
+### Modern CSS Design
 
 Revume not only excels in functionality but also in aesthetics. It features a clean and modern CSS design with smooth animations and effects. Enjoy a visually pleasing and intuitive interface while managing your downloads.
 
-### Simple-to-Use UI/UX
+### Simple-to-Use UI
 
 Revume is designed with a user-friendly interface that ensures anyone, regardless of technical expertise, can efficiently manage their downloads. The intuitive design simplifies the process and eliminates any learning curve.
 
 ## Installation
 
-### Chrome Developer Mode
+### Unpacked Installation
 
 1. Download or clone this repository to your local machine.
+     ```bash
+   git clone https://github.com/your-username/revume.git
 2. Open Google Chrome.
 3. Navigate to `chrome://extensions/` (or click on the three dots in the top right corner, go to More Tools, and then Extensions).
 4. Enable "Developer mode" in the top right corner.
 5. Click on "Load unpacked" and select the folder where you downloaded or cloned the extension.
-6. Revume - Auto Resume Downloads is now installed in developer mode!
+6. Revume - Auto Resume Downloads is now installed on your browser.
 
-### Chrome Extension (.crx)
+### CRX Chrome Installation (.crx)
 
 1. Download the CRX file from the "Releases" section of this repository.
 2. Open Google Chrome.
 3. Navigate to `chrome://extensions/` (or click on the three dots in the top right corner, go to More Tools, and then Extensions).
 4. Drag and drop the CRX file onto the extensions page.
 5. Confirm the installation.
-6. Revume - Auto Resume Downloads is now installed!
+6. Revume - Auto Resume Downloads is now installed on your browser.
 
-### GitHub Installation (Git Clone)
-
-To install Revume by cloning the GitHub repository, follow these steps:
-
-1. Open your terminal or command prompt.
-2. Navigate to the directory where you want to install Revume.
-3. Run the following command to clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/revume.git
