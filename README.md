@@ -6,7 +6,7 @@ Revume is a useful Chrome extension that enhances your download experience by pr
   <img src="https://github.com/yanpuri/Revume--Auto-Resume-Downloads/assets/121260820/eaf9d4f4-4fe2-4e64-b5d9-30b8c983c2bf" alt="Image Description">
 </p>
 
-<p align="center"><strong><em>YouTube Caption Search Tool (CapScript)</em></strong></p>
+<p align="center"><strong><em>Revume - Auto Resume Downloads Chrome Extension</em></strong></p>
 ## Features
 
 ### Auto Resume Multiple Downloads
