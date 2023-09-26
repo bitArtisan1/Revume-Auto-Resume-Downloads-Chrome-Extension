@@ -1,0 +1,42 @@
+.clear-button:hover {
+    background-color: #e0e0e0;
+}
+
+.apply-button {
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px; 
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #2196F3;
+    color: white;
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+
+.apply-button:hover {
+    background-color: #065ca1;
+}
+
+.clear-button {
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #808080;
+    color: white;
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.clear-button:hover {
+    background-color: #9c9a9a;
+}

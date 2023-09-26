@@ -1,0 +1,15 @@
+@font-face {
+    src: url("../fonts/Gmarket Sans TTF Medium.ttf");
+    font-family: "sq";
+}
+
+@font-face {
+    src: url("../fonts/Montserrat-Regular.ttf") format('woff2'),
+    font-family: 'logFont';    
+}
+
+@font-face {
+    src: url("../fonts/JetBrainsMono-BoldItalic.ttf");
+    font-family: 'jet';    
+}
+

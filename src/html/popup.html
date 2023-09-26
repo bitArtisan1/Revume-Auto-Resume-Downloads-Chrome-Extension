@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/font.css">
+	<link rel="stylesheet" href="../css/details.css">
+	<link rel="stylesheet" href="../css/log.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/buttons.css">
+	<link rel="stylesheet" href="../css/slider.css">
+	<link rel="stylesheet" href="../css/feedback.css">
+    <title>Revume</title>
+    <script type="text/javascript" src="../js/email.min.js"></script>
+    <script type="text/javascript" src="../js/popup.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <h2 id="title">Revume</h2>
+        <a href="https://github.com/yanpuri" id="github-link" target="_blank">
+            <img src="../icons/github.png" alt="GitHub">
+        </a>
+        <br><br>
+        <div class="switch-container">
+            <label class="switch">
+                <input type="checkbox" id="start-switch">
+                <span class="slider round"></span>
+            </label>
+            <label for="paused-item">Auto Resume</label>
+        </div>
+        <hr>
+
+        <details open>
+            <summary>Settings</summary>
+            <br>
+            <div class="checks etrans">
+                <input type="checkbox" id="paused-item">
+                <label for="paused-item">Resume Paused Items</label>
+            </div>
+            <br><br>
+            <div>
+                <label for="interval-time">Check Time Interval </label>
+                <input id="interval-time" type="number" min="1" max="100000" size="4" step="1" value="3"
+                    placeholder="3" />
+                secs
+            </div>
+            <br><br>
+            <button class="apply-button" id="apply-button" type="button">Apply</button>
+        </details>
+
+        <details>
+            <summary>Logs</summary>
+            <br>
+            <textarea readonly="readonly" id="log-textarea"></textarea>
+            <br><br>
+            <button class="clear-button" id="clear-button">Clear</button>
+        </details>
+
+        <details class="details-feedback">
+		    <div id="feedback-message" class="hidden"></div>
+            <summary>Feedback</summary>
+            <br>
+            <form id="feedback-form">
+                <textarea id="feedback" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Submit Feedback">
+            </form>
+            <br>
+        </details>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+details summary {
+    font-weight: bold;
+}
+
+details:last-child summary {
+    list-style-type: none;
+    margin-left: 3px; 
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    content: "Feedback";
+}
+
+details:last-child summary {
+    list-style-type: none;
+    margin-left: -2px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+
+.details-feedback {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s ease-in-out;
+	outline: 2px solid #cccccc; 
+
+}
+
+.details-feedback summary {
+    list-style-type: none;
+    padding-left: 71px; 
+    font-weight: bold;
+    font-size: 13px; 
+    cursor: pointer;
+    position: relative;
+    content: "Feedback";
+}
+
+details:last-child summary {
+    list-style-type: none;
+    margin-left: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    content: "Feedback";
+}
+
+details:last-child summary {
+    list-style-type: none;
+    margin-left: -2px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}

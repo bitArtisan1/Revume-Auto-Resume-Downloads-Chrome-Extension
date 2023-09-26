@@ -1,0 +1,52 @@
+#feedback-form label {
+    font-weight: bold;
+}
+
+#feedback {
+    width: 80%;
+    padding: 10px;
+    padding-right: 29px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'jet';
+    font-size: 12px;
+    color: #333;
+     resize: both;
+  overflow: auto;
+    outline: none;
+	
+}
+
+#feedback:hover {
+    outline: 2px solid #fb0;
+}
+
+#feedback-message {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    font-family: 'jet';
+    font-size: 12px;
+    color: #333;
+}
+
+#feedback-form input[type="submit"] {
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: #34dca1;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#feedback-form input[type="submit"]:hover {
+    background-color: #089664;
+}
