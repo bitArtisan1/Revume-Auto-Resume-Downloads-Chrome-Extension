@@ -58,5 +58,9 @@ Revume is designed with a user-friendly interface that ensures anyone, regardles
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - see the LICENSE file for details.
 
 ## Images
-![1024x1024](https://github.com/yanpuri/Revume--Auto-Resume-Downloads/assets/121260820/55e68a13-c355-4a70-8175-4148a43c9ad3)
+![Screenshot 2023-09-26 211107](https://github.com/yanpuri/Revume--Auto-Resume-Downloads/assets/121260820/d4aa45b6-b6d7-4dc7-a1c1-d350507b6b44)
+![Screenshot 2023-09-26 210731](https://github.com/yanpuri/Revume--Auto-Resume-Downloads/assets/121260820/3e658134-d75f-48ef-bb30-bbbaae9fc7e4)
+![Screenshot 2023-09-26 191623](https://github.com/yanpuri/Revume--Auto-Resume-Downloads/assets/121260820/95fbfa10-f67e-44aa-acb9-e60e6304b1bd)
+![Screenshot 2023-09-26 210756](https://github.com/yanpuri/Revume--Auto-Resume-Downloads/assets/121260820/555e6156-65d1-4291-b070-2a7e55b626a3)
+
 ## Support Me
