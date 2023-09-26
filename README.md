@@ -38,7 +38,7 @@ Revume is designed with a user-friendly interface that ensures anyone, regardles
 
 1. Download or clone this repository to your local machine.
      ```bash
-   git clone https://github.com/your-username/revume.git
+   git clone https://github.com/yanpuri/Revume--Auto-Resume-Downloads.git
 2. Open Google Chrome.
 3. Navigate to `chrome://extensions/` (or click on the three dots in the top right corner, go to More Tools, and then Extensions).
 4. Enable "Developer mode" in the top right corner.
