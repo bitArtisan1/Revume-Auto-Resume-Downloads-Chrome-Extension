@@ -7,6 +7,7 @@ Revume is a useful Chrome extension that enhances your download experience by pr
 </p>
 
 <p align="center"><strong><em>Revume - Auto Resume Downloads Chrome Extension</em></strong></p>
+
 ## Features
 
 ### Auto Resume Multiple Downloads
@@ -73,3 +74,6 @@ This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - s
 ![Screenshot 2023-09-26 210756](https://github.com/yanpuri/Revume--Auto-Resume-Downloads/assets/121260820/555e6156-65d1-4291-b070-2a7e55b626a3)
 
 ## Support Me
+If you liked this, please consider leaving a star ⭐
+
+If you found this to be useful, make sure to follow me for more 🙃
