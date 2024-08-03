@@ -1,3 +1,10 @@
+<div align="right">
+    <a href="https://www.buymeacoffee.com/bitArtisan">
+        <img src="https://img.shields.io/badge/Buy_me_a_coffee-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee Pls!" />
+    </a>
+</div>
+
+
 # Revume - Auto Resume Downloads
 
 Revume is a useful Chrome extension that enhances your download experience by providing advanced features to ensure you never miss a download, even when you're away, facing connectivity issues, or want to manage your downloads automatically. With a sleek and user-friendly interface, Revume makes managing downloads a breeze.
@@ -77,3 +84,13 @@ This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - s
 If you liked this, please consider leaving a star ⭐
 
 If you found this to be useful, make sure to follow me for more 🙃
+
+<a href="https://www.buymeacoffee.com/bitArtisan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=bitArtisan&button_colour=CBC3E3&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+<center>
+<div style="text-align: center;">
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/14d5e011-022a-4cf5-9778-ebc21dc0ed70" alt="octodance" width="100" height="100" style="margin-right: 10px;"/>
+  </p>
+</div>
+
+</center>
