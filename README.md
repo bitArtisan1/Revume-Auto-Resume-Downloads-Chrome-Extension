@@ -81,11 +81,17 @@ This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - s
 ![Screenshot 2023-09-26 210756](https://github.com/yanpuri/Revume--Auto-Resume-Downloads/assets/121260820/555e6156-65d1-4291-b070-2a7e55b626a3)
 
 ## Support Me
-If you liked this, please consider leaving a star ⭐
+If you find RepoUp useful, consider supporting me by:
 
-If you found this to be useful, make sure to follow me for more 🙃
+- Starring the repository on GitHub
+- Sharing the tool with others
+- Providing feedback and suggestions
+- Follow me for more :)
 
 <a href="https://www.buymeacoffee.com/bitArtisan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=bitArtisan&button_colour=CBC3E3&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+    
+---
+For any issues or feature requests, please open an issue on GitHub. Happy coding!
 <center>
 <div style="text-align: center;">
   <p align="center">
