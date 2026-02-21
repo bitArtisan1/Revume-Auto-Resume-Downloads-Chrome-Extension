@@ -9,6 +9,8 @@
 
 Revume is a useful Chrome extension that enhances your download experience by providing advanced features to ensure you never miss a download, even when you're away, facing connectivity issues, or want to manage your downloads automatically. With a sleek and user-friendly interface, Revume makes managing downloads a breeze.
 
+<img width="1408" height="768" alt="logo" src="https://github.com/user-attachments/assets/e35fb58d-cb70-42ef-bb59-907b87fee625" />
+
 
 ## Features
 
