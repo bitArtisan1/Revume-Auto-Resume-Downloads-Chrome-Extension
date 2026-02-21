@@ -56,10 +56,6 @@ function logging(str, logTextArea) {
     });
 }
 
-/**
- * Sync the status headline to whether auto-resume is active.
- * CSS handles the toggle visual via input:checked.
- */
 function updatePowerUI(isActive) {
     const $statusText = document.getElementById("status-text");
     if ($statusText) {
@@ -67,9 +63,6 @@ function updatePowerUI(isActive) {
     }
 }
 
-/**
- * Apply the given theme ('dark' or 'light') to the document and persist it.
- */
 function applyTheme(theme) {
     document.documentElement.setAttribute("data-theme", theme);
     chrome.storage.local.set({ theme });
