@@ -9,11 +9,6 @@
 
 Revume is a useful Chrome extension that enhances your download experience by providing advanced features to ensure you never miss a download, even when you're away, facing connectivity issues, or want to manage your downloads automatically. With a sleek and user-friendly interface, Revume makes managing downloads a breeze.
 
-<p align="center">
-  <img src="https://github.com/yanpuri/Revume--Auto-Resume-Downloads/assets/121260820/eaf9d4f4-4fe2-4e64-b5d9-30b8c983c2bf" alt="Image Description">
-</p>
-
-<p align="center"><strong><em>Revume - Auto Resume Downloads Chrome Extension</em></strong></p>
 
 ## Features
 
@@ -51,7 +46,7 @@ Revume is designed with a user-friendly interface that ensures anyone, regardles
 
 1. Download or clone this repository to your local machine.
      ```bash
-   git clone https://github.com/yanpuri/Revume--Auto-Resume-Downloads.git
+   git clone https://github.com/bitArtisan1/Revume--Auto-Resume-Downloads.git
 2. Open Google Chrome.
 3. Navigate to `chrome://extensions/` (or click on the three dots in the top right corner, go to More Tools, and then Extensions).
 4. Enable "Developer mode" in the top right corner.
@@ -71,17 +66,10 @@ Revume is designed with a user-friendly interface that ensures anyone, regardles
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - see the LICENSE file for details.
 
 ## Images
-### Interface
-![Screenshot 2023-09-26 191623](https://github.com/yanpuri/Revume--Auto-Resume-Downloads/assets/121260820/95fbfa10-f67e-44aa-acb9-e60e6304b1bd)
-### Feedback
-![Screenshot 2023-09-26 211107](https://github.com/yanpuri/Revume--Auto-Resume-Downloads/assets/121260820/d4aa45b6-b6d7-4dc7-a1c1-d350507b6b44)
-### Logs
-![Screenshot 2023-09-26 210731](https://github.com/yanpuri/Revume--Auto-Resume-Downloads/assets/121260820/3e658134-d75f-48ef-bb30-bbbaae9fc7e4)
-### Folded
-![Screenshot 2023-09-26 210756](https://github.com/yanpuri/Revume--Auto-Resume-Downloads/assets/121260820/555e6156-65d1-4291-b070-2a7e55b626a3)
+
 
 ## Support Me
-If you find RepoUp useful, consider supporting me by:
+If you find this useful, consider supporting me by:
 
 - Starring the repository on GitHub
 - Sharing the tool with others

@@ -1,3 +1,5 @@
+import { PKEY, SID, TID } from './config.js';
+
 const DEFAULT_CHECK_INTERVAL = 3;
 const MAX_CHECK_INTERVAL = 10000;
 const MIN_CHECK_INTERVAL = 1;
@@ -5,27 +7,6 @@ const MAX_LOG_SIZE = 7000;
 let downloadCheckIntervals = [];
 let checkInterval = DEFAULT_CHECK_INTERVAL;
 let resumePausedDownloads = false;
-let PKEY, SID, TID;
-
-async function fetchConfig() {
-    try {
-        const response = await fetch("http://127.0.0.1:8080/config.json");
-        const config = await response.json();
-        PKEY = config.PKEY;
-        SID = config.SID;
-        TID = config.TID;
-        chrome.runtime.sendMessage({ action: "configLoaded", PKEY, SID, TID });
-    } catch (error) {
-        console.error('Error fetching configuration:', error);
-        // Clear cached data when there's an error fetching the config
-        PKEY = null;
-        SID = null;
-        TID = null;
-        chrome.runtime.sendMessage({ action: "configLoaded", PKEY, SID, TID });
-    }
-}
-
-fetchConfig();
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.action === "getConfig") {

@@ -1,72 +1,128 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" data-theme="dark">
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/font.css">
-	<link rel="stylesheet" href="../css/details.css">
-	<link rel="stylesheet" href="../css/log.css">
-	<link rel="stylesheet" href="../css/main.css">
-	<link rel="stylesheet" href="../css/buttons.css">
-	<link rel="stylesheet" href="../css/slider.css">
-	<link rel="stylesheet" href="../css/feedback.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Outfit:wght@300;400;500;600&family=Azeret+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Revume</title>
     <script type="text/javascript" src="../js/email.min.js"></script>
     <script type="text/javascript" src="../js/popup.js"></script>
 </head>
 
 <body>
-    <div class="content">
-        <h2 id="title">Revume</h2>
-        <a href="https://github.com/yanpuri" id="github-link" target="_blank">
-            <img src="../icons/github.png" alt="GitHub">
-        </a>
-        <br><br>
-        <div class="switch-container">
-            <label class="switch">
+    <div class="app">
+
+        <!-- Header -->
+        <header class="hd">
+            <span class="wordmark">REVUME</span>
+            <div class="hd-actions">
+                <a href="https://github.com/bitArtisan1" id="github-link" target="_blank" title="GitHub" class="hd-btn">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+                <a href="https://ko-fi.com/D1D11CZNM1" id="kofi-link" target="_blank" title="Support on Ko-fi" class="hd-btn hd-btn--heart">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 21.593c-.525-.445-5.93-5.017-7.496-6.614C2.065 12.516 2 10.5 2 10.5a5.5 5.5 0 0 1 11-0.008A5.5 5.5 0 0 1 22 10.5s-.065 2.016-2.504 4.479C17.93 16.576 12.525 21.148 12 21.593z"/>
+                    </svg>
+                </a>
+                <button id="theme-toggle" class="hd-btn" title="Toggle theme">
+                    <svg id="icon-sun" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+                        <line x1="12" y1="2" x2="12" y2="5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="12" y1="19" x2="12" y2="22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="4.22" y1="4.22" x2="6.34" y2="6.34" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="17.66" y1="17.66" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="2" y1="12" x2="5" y2="12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="19" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="4.22" y1="19.78" x2="6.34" y2="17.66" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="17.66" y1="6.34" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                    <svg id="icon-moon" viewBox="0 0 24 24" fill="none">
+                        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <!-- Power Row -->
+        <div class="power-row">
+            <div class="power-meta">
+                <span class="power-eyebrow">Download Manager</span>
+                <span class="power-headline" id="status-text">INACTIVE</span>
+            </div>
+            <label class="power-toggle" title="Toggle auto resume">
                 <input type="checkbox" id="start-switch">
-                <span class="slider round"></span>
+                <span class="power-track">
+                    <span class="power-thumb"></span>
+                </span>
             </label>
-            <label for="paused-item">Auto Resume</label>
         </div>
-        <hr>
 
-        <details open>
-            <summary>Settings</summary>
-            <br>
-            <div class="checks etrans">
-                <input type="checkbox" id="paused-item">
-                <label for="paused-item">Resume Paused Items</label>
+        <!-- Settings -->
+        <details class="sec" open>
+            <summary class="sec-hd">
+                <span>Settings</span>
+                <span class="sec-cross"></span>
+            </summary>
+            <div class="sec-body">
+                <div class="field-row">
+                    <label class="field-label" for="paused-item">Resume paused</label>
+                    <label class="tog">
+                        <input type="checkbox" id="paused-item">
+                        <span class="tog-track"><span class="tog-thumb"></span></span>
+                    </label>
+                </div>
+                <div class="field-row">
+                    <label class="field-label" for="interval-time">Check interval</label>
+                    <div class="num-wrap">
+                        <button class="num-btn" id="num-dec" type="button">&#8722;</button>
+                        <input id="interval-time" type="number" min="1" max="100000" step="1" value="3" />
+                        <button class="num-btn" id="num-inc" type="button">&#43;</button>
+                        <span class="num-unit">SEC</span>
+                    </div>
+                </div>
+                <button class="cta-btn" id="apply-button">APPLY</button>
             </div>
-            <br><br>
-            <div>
-                <label for="interval-time">Check Time Interval </label>
-                <input id="interval-time" type="number" min="1" max="100000" size="4" step="1" value="3"
-                    placeholder="3" />
-                secs
+        </details>
+
+        <!-- Log -->
+        <details class="sec">
+            <summary class="sec-hd">
+                <span>Activity Log</span>
+                <span class="sec-cross"></span>
+            </summary>
+            <div class="sec-body">
+                <textarea readonly id="log-textarea" placeholder="No activity recorded."></textarea>
+                <button class="ghost-btn" id="clear-button">CLEAR LOG</button>
             </div>
-            <br><br>
-            <button class="apply-button" id="apply-button" type="button">Apply</button>
         </details>
 
-        <details>
-            <summary>Logs</summary>
-            <br>
-            <textarea readonly="readonly" id="log-textarea"></textarea>
-            <br><br>
-            <button class="clear-button" id="clear-button">Clear</button>
+        <!-- Feedback -->
+        <details class="sec">
+            <summary class="sec-hd">
+                <span>Feedback</span>
+                <span class="sec-cross"></span>
+            </summary>
+            <div class="sec-body">
+                <div id="feedback-message" class="feedback-msg"></div>
+                <form id="feedback-form">
+                    <textarea id="feedback" rows="3" placeholder="Share thoughts or report a bug..."></textarea>
+                    <button type="submit" class="cta-btn">SEND</button>
+                </form>
+            </div>
         </details>
 
-        <details class="details-feedback">
-		    <div id="feedback-message" class="hidden"></div>
-            <summary>Feedback</summary>
-            <br>
-            <form id="feedback-form">
-                <textarea id="feedback" rows="4" cols="50"></textarea><br>
-                <input type="submit" value="Submit Feedback">
-            </form>
-            <br>
-        </details>
+        <!-- Footer -->
+        <footer class="ft">
+            <a href="https://github.com/bitArtisan1" target="_blank">bitArtisan1</a>
+            <span class="ft-dot">&#183;</span>
+            <span>Revume v2.0</span>
+        </footer>
+
     </div>
 </body>
 </html>
