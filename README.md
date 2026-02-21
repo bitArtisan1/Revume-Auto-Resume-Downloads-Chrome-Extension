@@ -68,6 +68,9 @@ Revume is designed with a user-friendly interface that ensures anyone, regardles
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - see the LICENSE file for details.
 
 ## Images
+<img width="471" height="690" alt="image1" src="https://github.com/user-attachments/assets/e5c4c59a-ae9d-43fa-a389-fbbbb497232b" />
+
+<img width="471" height="689" alt="image2" src="https://github.com/user-attachments/assets/9c03906c-7486-4ae6-ac61-43141d17f1be" />
 
 
 ## Support Me
